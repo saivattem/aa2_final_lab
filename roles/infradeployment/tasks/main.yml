@@ -1,6 +1,5 @@
----
 - name: Include Instance variables
-  include_vars: instances_vars.yml
+  include_vars: main.yml
 
 - name: Create Instance
   openstack.cloud.server:
